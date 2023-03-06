@@ -21,7 +21,6 @@ const PopularDestination = () => {
       >
         Popular Destination
       </h1>
-      {console.log(data)}
       <Row>
         {data?.allPopularDestination?.map((item) => {
           return (

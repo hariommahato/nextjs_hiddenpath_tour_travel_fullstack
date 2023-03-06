@@ -33,6 +33,7 @@ const RecentTours = () => {
                     filter: "brightness(70%)",
                     height: "18vmax",
                     backgroundSize: "cover",
+                    objectFit:"cover"
                   }}
                 />
                 <Card.ImgOverlay>

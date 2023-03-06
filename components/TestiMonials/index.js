@@ -43,7 +43,7 @@ function TestiMonials() {
               <Card
                 style={{
                   width: "auto",
-                 height:"19vmax"
+                 height:"19vmax",border:"none"
                 }}
               >
                 <Card.Img
@@ -52,12 +52,17 @@ function TestiMonials() {
                   style={{
                     backgroundSize: "cover",
                     backgroundPosition: "center",
-                    height:"13vmax"
+                    height:"8vmax",
+                    width:"8vmax",
+                    borderRadius:"50%",
+                    margin:"auto",
+                    padding:"1rem"
+
                   }}
                 />
                 <Card.Body>
-                  <Card.Title >{data?.name}</Card.Title>
-                  <Card.Text>{`${data?.comment}`.slice(0, 10)}</Card.Text>
+                  <Card.Title  style={{textAlign:"center"}}>{data?.name}</Card.Title>
+                  <Card.Text  style={{textAlign:"center"}}>{`${data?.comment}`.slice(0, 10)}</Card.Text>
                 </Card.Body>
               </Card>
             </SwiperSlide>
